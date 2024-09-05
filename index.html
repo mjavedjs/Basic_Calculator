@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styel.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="tools">
+        <div class="circle">
+          <span class="red box"></span>
+        </div>
+        <div class="circle">
+          <span class="yellow box"></span>
+        </div>
+        <div class="circle">
+          <span class="green box"></span>
+        </div>
+      </div>
+      <div class="card__content">
+        <div class="container">
+          <h2>Basic Calculator</h2>
+          <input type="number" id="num1" placeholder="Enter First number" />
+          <input type="number " id="num2" placeholder="Enter Second Number" />
+        </div>
+        <div class="button-contianer">
+          <button class="full-rounded" onclick="addition()">
+            <span>Additions</span>
+            <div class="border full-rounded"></div>
+          </button>
+
+          <button class="full-rounded" onclick="subraction()">
+            <span>Subration</span>
+            <div class="border full-rounded"></div>
+          </button>
+
+          <button class="full-rounded"  onclick="Multiplcation()">
+            <span>Multiplation</span>
+            <div class="border full-rounded"></div>
+          </button>
+
+          <button class="full-rounded"  onclick=" divison()" >
+            <span> Divisions </span>
+            <div class="border full-rounded"></div>
+          </button>
+
+        </div>
+        <h1 id="total">Answer :</h1>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
